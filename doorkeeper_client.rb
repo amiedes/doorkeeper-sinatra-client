@@ -5,6 +5,7 @@ require 'securerandom'
 require 'singleton'
 require 'dotenv/load'
 require './lib/html_renderer'
+require 'byebug'
 
 Rollbar.configure do |config|
   config.access_token = ENV['ROLLBAR_ACCESS_TOKEN']

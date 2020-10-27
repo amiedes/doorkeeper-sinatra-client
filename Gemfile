@@ -10,6 +10,7 @@ gem 'puma'
 gem 'redcarpet'
 gem 'rollbar'
 gem 'sinatra'
+gem 'byebug'
 
 group :development do
   gem 'pry'
